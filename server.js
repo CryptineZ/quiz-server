@@ -50,9 +50,11 @@ var questions = [
 ];
 
 var root = {
+  //Returns question with specific key
   question: ({id}) => {
     return questions[id];
   },
+  //Returns all questions
   questions: () => {
     return questions;
   },
